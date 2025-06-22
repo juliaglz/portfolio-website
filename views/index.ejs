@@ -1,1 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title><%= title %></title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header>
+    <img src="/images/julia.jpeg" alt="Foto de Julia Gonzalez Ramos" class="profile-photo">
+    <h1>Hi, I'm <%= name %></h1>
+    <p>Technology Consultant</p> Computer Scientist with a strong foundation in Mathematics</p>
+    <div class="social-icons">
+        <a href="https://es.linkedin.com/in/juliaglzramos" target="_blank">
+          <img src="/images/linkedin.png" alt="LinkedIn" class="icon">
+        </a>
+        <a href="https://github.com/juliaglz" target="_blank">
+          <img src="/images/github.png" alt="GitHub" class="icon">
+        </a>
+      </div>
+  </header>
 
+  <section>
+    <h2>About me</h2>
+    <p>
+      Hi! I’m Julia Gonzalez Ramos a Computer Scientist with a strong mathematical background and a passion for creating effective solutions.
+    </p>
+    <p> 
+    My logical thinking is a key asset in resolving complex problems, and I’m deeply committed to every project I undertake. I thrive in challenging environments, where I can dive into complexity and emerge with clean, scalable solutions.
+    </p>
+    <p>
+    I’m passionate about collaboration and believe that great work is built through teamwork and communication. I’m constantly seeking new opportunities to grow and to make a meaningful contribution wherever I am.
+    </p>
+  </section>
+
+  <section id="proyectos">
+    <h2>Proyectos</h2>
+  
+    <div class="project-grid">
+  
+      <!-- Proyecto 1 -->
+      <div class="project-card">
+        <img src="/images/snake.gif" alt="Smart Snake ML">
+        <h3>Smart Snake ML</h3>
+        <p>This project implements the classic Snake game, enhanced with various Machine Learning approaches to teach the snake to play autonomously.</p>
+        <a href="https://github.com/juliaglz/Smart-Snake-powered-by-ML" target="_blank" class="github-link">
+          Ver en GitHub
+        </a>
+      </div>
+  
+      <!-- Proyecto 2 (ejemplo) -->
+      <div class="project-card">
+        <img src="/images/chatbot.gif" alt="Document based chatbot">
+        <h3>Document based chatbot</h3>
+        <p>This project is a modular, document-based chatbot that allows flexible integration of different components for text parsing, chunking, embedding, and response generation using multiple LLMs. It is built for scalability, experimentation, and easy testing of various NLP techniques.</p>
+        <a href="https://github.com/juliaglz/Document-based-chatbot" target="_blank" class="github-link">
+          Ver en GitHub
+        </a>
+      </div>
+  
+      <!-- Proyecto 3 (ejemplo) -->
+      <div class="project-card">
+        <img src="/images/barrier-option.png" alt="Stochastic Simulation and Barrier Option Pricing">
+        <h3>Stochastic Simulation and Barrier Option Pricing</h3>
+        <p>This repository contains a set of MATLAB scripts for simulating stochastic differential equations (SDEs), evaluating barrier options, and estimating survival probabilities in population models using Monte Carlo methods. The focus is on comparing different techniques for dealing with discrete-time approximations and barrier-crossing events (e.g., Brownian Bridge, barrier shifting).</p>
+        <a href="https://github.com/juliaglz/barrier-options-simulation" target="_blank" class="github-link">
+          Ver en GitHub
+        </a>
+      </div>
+      <% /*
+      <div class="project-card">
+        <img src="/images/proyect1.jpg" alt="Web site">
+        <h3>Personal Website </h3>
+        <p>This repository contains the code for my personal website</p>
+        <a href="https://github.com/juliaglz/barrier-options-simulation" target="_blank" class="github-link">
+          Ver en GitHub
+        </a>
+      </div>
+      */ %>
+    </div>
+  </section>
+  
+
+  <section>
+    <h2>Contacto</h2>
+    <p>¿Te interesa trabajar conmigo? Estoy disponible para nuevos proyectos.</p>
+    <a href="mailto:juliaglzramos@gmail.com" class="email-button">
+        <img src="/images/gmail.png" alt="Gmail logo" class="icon-gmail">
+        Email me
+    </a>
+  </section>
+</body>
+</html>
