@@ -1,0 +1,200 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f5f2eb; /* Beige claro */
+    color: #2c2c2c;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #e9e4d4; /* Beige más fuerte */
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    margin: 0;
+  }
+  
+  header p {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+
+  .profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* si usas la opción B */
+  .header-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  
+  .icon {
+    width: 32px;
+    margin: 0 10px;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+  }
+  
+  .icon:hover {
+    filter: grayscale(0%);
+  }
+
+  #proyectos {
+    margin-top: 60px;
+    padding: 40px 20px;
+    background-color: #f5f0dc;
+    text-align: center;
+  }
+  
+
+  
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+  }
+  
+  .project-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    padding: 20px;
+    height: 100%;
+    min-height: 550px; /* 🔧 Fija altura mínima para uniformidad */
+    box-sizing: border-box;
+  }
+  
+  .project-card img {
+    width: 100%;
+    border-radius: 12px;
+    height: 160px;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  .project-card h3 {
+    font-size: 20px;
+    color: #333;
+    margin: 0 0 10px;
+  }
+  
+  .project-content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
+  }
+  
+  .project-content p {
+    font-size: 15px;
+    color: #555;
+    text-align: justify;
+    margin-bottom: 20px;
+  }
+  
+  .github-link {
+    align-self: center;
+    margin-top: auto;
+    color: #fff;
+    background-color: #000;
+    padding: 10px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .github-link:hover {
+    background-color: #333;
+  }
+  
+  
+  
+  .email-button {
+    display: inline-block;
+    background-color: #333;
+    color: #f5f0dc;
+    padding: 12px 24px;
+    margin-top: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .email-button:hover {
+    background-color: #555;
+  }
+  
+  .icon-gmail {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+  
+  section {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .proyecto {
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    color: #444;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+  }
+  .project-card .github-link {
+    display: block;         /* Ocupa toda la línea */
+    text-align: center;     /* Centra el texto dentro del botón */
+    margin: 10px auto 0;    /* Centrado horizontal y espacio arriba */
+  }
+
+  #about p {
+    text-align: justify;
+  }
+  
+  .project-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 20px;
+    border-radius: 16px;
+    background-color: #fff;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .project-content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
+  }
